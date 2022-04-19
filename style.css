@@ -1,0 +1,23 @@
+:root{
+    --main-color:#fbf4b8 ;
+    --second-color:#f6bbcf;
+    --acento-color:#dd7297;
+    --tile-color:#333;
+
+    --font-principal:font-family: 'Quicksand', sans-serif;
+    --font-second:font-family: 'Raleway', sans-serif;
+}
+body{
+    color:var(--tile-color);
+}
+
+
+.container{
+    display: flex;
+ } 
+ .intro{
+    width: 100%;
+    height: 80px;
+    background: var(--main-color);
+    color: #fff;
+}
